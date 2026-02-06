@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Love Letter</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+<body style="opacity:0;">
+<audio id="bgMusic" loop>
+  <source src="assets/song.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+  <h2 id="typing"></h2>
+  <a class="button" href="promise.html">Next</a>
+</div>
+
+<div class="hearts"></div>
+
+<script src="script.js"></script>
+<script>
+document.body.style.opacity = "1";
+startTyping("Dear Yuktha, after all these years you still matter to me… quietly, genuinely, deeply.");
+document.getElementById('bgMusic').play().catch(()=>{});
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Yuktha</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+<body style="opacity:0;">
+
+<audio id="bgMusic" loop>
+  <source src="assets/song.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+  <h1 id="typing"></h1>
+  <a class="button" href="memory.html">Our Story</a>
+</div>
+
+<div class="hearts"></div>
+
+<script src="script.js"></script>
+<script>
+document.body.style.opacity = "1";
+startTyping("Hey Yuktha 🌙 Happy Valentine’s Day… again ❤️ Some feelings don’t fit into just one wish.");
+document.getElementById('bgMusic').play().catch(()=>{});
+</script>
+</body>
+</html>

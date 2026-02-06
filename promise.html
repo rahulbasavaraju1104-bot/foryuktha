@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Looking Ahead</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+</head>
+<body style="opacity:0;">
+<audio id="bgMusic" loop>
+  <source src="assets/song.mp3" type="audio/mpeg">
+</audio>
+
+<div class="container">
+  <h2 id="typing"></h2>
+</div>
+
+<div class="hearts"></div>
+<div class="confetti"></div>
+
+<script src="script.js"></script>
+<script>
+document.body.style.opacity = "1";
+startTyping("We study, we grow, we build our own success. Distance may feel heavy, but I’m willing to wait. I love you ❤️");
+document.getElementById('bgMusic').play().catch(()=>{});
+startConfetti();
+</script>
+</body>
+</html>
